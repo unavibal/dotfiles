@@ -197,7 +197,6 @@ enter_accept = false
 #   "go",
 #   "ip",
 #   "jj",
-#   "kubectl",
 #   "nix",
 #   "nmcli",
 #   "npm",
