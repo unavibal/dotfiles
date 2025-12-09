@@ -1,5 +1,5 @@
 local wezterm = require("wezterm")
-
+local act = wezterm.action
 local config = {}
 
 if wezterm.config_builder then
@@ -40,5 +40,21 @@ config.font = wezterm.font({
 config.font_size = 15
 config.window_background_opacity = 0.98
 
+-----------------------------------------------------------
+-- Key Bindingss
+-----------------------------------------------------------
+config.keys = {
+	-- Add tab changing through cmd - arrow combo
+	{
+		key = "RightArrow",
+		mods = "SUPER",
+		action = act.ActivateTabRelative(1),
+	},
+	{
+		key = "LeftArrow",
+		mods = "SUPER",
+		action = act.ActivateTabRelative(-1),
+	},
+}
 -- config
 return config

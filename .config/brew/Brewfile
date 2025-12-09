@@ -1,5 +1,4 @@
 # 'brew install'
-brew "trivy"
 brew "fd"
 brew "stow"
 brew "eza"
