@@ -28,7 +28,7 @@ brew "golang"
 brew "golangci-lint"
 brew "uv"
 brew "ruff"
-
+brew "tree-sitter-cli"
 # 'brew install --cask'
 cask "wezterm"
 cask "font-fira-code-nerd-font"

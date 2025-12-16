@@ -5,4 +5,4 @@
 # Enable this to use italic text on the terminal. This is not supported on all
 # terminal emulators (like tmux, by default):
 --italic-text=always
---theme="Catppuccin Macchiato"
+--theme="gruvbox-light"

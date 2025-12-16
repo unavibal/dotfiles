@@ -28,7 +28,7 @@ fish_add_path "$HOMEBREW_PREFIX/bin"
 fish_add_path "$HOME/.local/bin/"
 
 set -gx EDITOR nvim
-set -gx LS_COLORS (vivid generate catppuccin-macchiato)
+set -gx LS_COLORS (vivid generate gruvbox-light-soft)
 
 # --------------------------------------------------------------------------------------
 # tools
@@ -37,3 +37,12 @@ zoxide init fish | source
 direnv hook fish | source
 starship init fish | source
 atuin init fish | source
+
+pyenv init - fish | source
+status --is-interactive; and pyenv virtualenv-init - | source
+
+# --------------------------------------------------------------------------------------
+# tools
+# --------------------------------------------------------------------------------------
+
+bind ƒ nextd-or-forward-word
