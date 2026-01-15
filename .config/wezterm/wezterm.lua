@@ -47,13 +47,23 @@ config.keys = {
   -- Add tab changing through cmd - arrow combo
   {
     key = "RightArrow",
-    mods = "SUPER",
+    mods = "CMD",
     action = act.ActivateTabRelative(1),
   },
   {
     key = "LeftArrow",
-    mods = "SUPER",
+    mods = "CMD",
     action = act.ActivateTabRelative(-1),
+  },
+  {
+    key = "N",
+    mods = "CMD|SHIFT",
+    action = act.ActivateWindowRelative(1),
+  },
+  {
+    key = "P",
+    mods = "CMD|SHIFT",
+    action = act.ActivateWindowRelative(-1),
   },
 }
 -- config
