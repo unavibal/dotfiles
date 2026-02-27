@@ -27,6 +27,7 @@ set -gx HOMEBREW_REPOSITORY "$HOMEBREW_PREFIX/homebrew"
 fish_add_path "$HOMEBREW_PREFIX/bin"
 fish_add_path "$HOME/.local/bin/"
 fish_add_path /opt/podman/bin
+fish_add_path /usr/local/bin
 
 set -gx EDITOR nvim
 set -gx LS_COLORS (vivid generate gruvbox-light-soft)

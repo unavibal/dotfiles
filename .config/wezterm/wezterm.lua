@@ -37,7 +37,7 @@ config.font = wezterm.font({
   weight = "Regular",
   harfbuzz_features = { "zero", "ss01", "ss04", "ss05" },
 })
-config.font_size = 15
+config.font_size = 18
 config.window_background_opacity = 0.98
 
 -----------------------------------------------------------
