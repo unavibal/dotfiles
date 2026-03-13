@@ -106,6 +106,7 @@ symbol = "󰆥 "
 symbol = " "
 
 [nodejs]
+disabled = true
 symbol = " "
 
 [ocaml]
@@ -175,6 +176,7 @@ symbol = " "
 symbol = "󰏗 "
 
 [python]
+disabled = true
 symbol = " "
 
 [rlang]
